@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".barracks_activity"
+    android:background="@color/purple1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:paddingBottom="@dimen/_50sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Barracks"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textColor="@color/brokenwhite"
+                    android:textSize="@dimen/_25ssp"/>
+
+                <Button
+                    android:id="@+id/barracks_btnreturn"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_historycardbackground"
+                    android:text="Return"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_18ssp"
+                    android:textColor="@color/purple3"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginStart="@dimen/_50sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barracks_layoutchampion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barracks_layoutchampion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barracks_layoutchampion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barracks_layoutchampion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barracks_layoutchampion5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barracks_layoutchampion6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/barracks_layoutchampion7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Buy More Champions"
+                android:textSize="@dimen/_20sdp"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:textColor="@color/brokenwhite"
+                android:fontFamily="@font/poppins_semibold"/>
+
+            <Button
+                android:layout_width="@dimen/_275sdp"
+                android:layout_height="wrap_content"
+                android:text="Shop"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/home_historycardbackground"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/purple3"
+                android:textSize="@dimen/_25sdp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

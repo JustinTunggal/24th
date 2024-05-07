@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".shop_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple1"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:paddingBottom="@dimen/_50sdp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shop"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textColor="@color/brokenwhite"
+                    android:textSize="@dimen/_25ssp"/>
+
+                <Button
+                    android:id="@+id/shop_btnreturn"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_historycardbackground"
+                    android:text="Return"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_18ssp"
+                    android:textColor="@color/purple3"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:layout_marginStart="@dimen/_100sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shop_layoutchampion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/jack_of_spades" />
+
+                    <TextView
+                        android:id="@+id/shop_jackofspades"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jack Of Spades"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <Button
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:text="Owned"
+                        android:textSize="@dimen/_20ssp"
+                        android:textColor="@color/purple3"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/_15sdp">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/queen_of_spades" />
+
+                    <TextView
+                        android:id="@+id/shop_queenofspades"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Queen Of Spades"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/chip1"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="350"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shop_layoutchampion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/king_of_spades" />
+
+                    <TextView
+                        android:id="@+id/shop_kingofspades"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="King Of Spades"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/chip2"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/_15sdp">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/jack_of_clubs" />
+
+                    <TextView
+                        android:id="@+id/shop_jackofclubs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jack Of Clubs"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/chip3"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="200"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shop_layoutchampion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/queen_of_clubs" />
+
+                    <TextView
+                        android:id="@+id/shop_queenofclubs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Queen Of Clubs"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/chip4"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="350"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/_15sdp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/king_of_clubs" />
+
+                    <TextView
+                        android:id="@+id/shop_kingofclubs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="King Of Clubs"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/chip5"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shop_layoutchampion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/jack_of_diamonds" />
+
+                    <TextView
+                        android:id="@+id/shop_jackofdiamonds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jack of Diamonds"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/chip6"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="200"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/_15sdp">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/queen_of_diamonds" />
+
+                    <TextView
+                        android:id="@+id/shop_queenofdiamonds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Queen Of Diamonds"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_14ssp"
+                        android:padding="@dimen/_1sdp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/chip7"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="350"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shop_layoutchampion5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/king_of_diamonds" />
+
+                    <TextView
+                        android:id="@+id/shop_kingofdiamonds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="King of Diamonds"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/chip8"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/_15sdp">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/jack_of_hearts" />
+
+                    <TextView
+                        android:id="@+id/shop_jackofhearts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jack Of Hearts"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/chip9"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="200"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shop_layoutchampion6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/queen_of_hearts" />
+
+                    <TextView
+                        android:id="@+id/shop_queenofhearts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Queen Of Hearts"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/chip10"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="350"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/_15sdp">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/king_of_hearts" />
+
+                    <TextView
+                        android:id="@+id/shop_kingofhearts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="King Of Hearts"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/chip11"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="500"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/shop_layoutchampion7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/joker_of_dark" />
+
+                    <TextView
+                        android:id="@+id/shop_jokerofdark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Joker of The Dark"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/chip12"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1000"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/_15sdp">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_175sdp"
+                        android:layout_weight="1"
+                        android:src="@drawable/joker_of_light" />
+
+                    <TextView
+                        android:id="@+id/shop_jokeroflight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Joker of The Light"
+                        android:layout_gravity="center"
+                        android:textColor="@color/brokenwhite"
+                        android:textSize="@dimen/_15ssp"
+                        android:fontFamily="@font/poppins_light"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/chip13"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/currency_chip" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1000"
+                            android:textSize="@dimen/_15ssp"
+                            android:textColor="@color/brokenwhite"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:layout_width="@dimen/_75sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:text="Buy"
+                            android:textSize="@dimen/_20ssp"
+                            android:textColor="@color/purple3"
+                            android:textAllCaps="false"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Champion Coming Soon!"
+                android:textColor="@color/brokenwhite"
+                android:textSize="@dimen/_25ssp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_25sdp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
