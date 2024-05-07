@@ -386,7 +386,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/playbutton"
                 android:layout_width="@dimen/_260sdp"
                 android:layout_height="wrap_content"
                 android:text="Start Battle"
