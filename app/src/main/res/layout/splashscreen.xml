@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/purple1">
+
+    <LinearLayout
+        android:id="@+id/firsttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/_25ssp"
+            android:textColor="@color/brokenwhite"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/_50ssp"
+            android:textColor="@color/brokenwhite"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+        android:text="CHALLANGE YOUR BRAIN TO THE LIMIT"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="@dimen/_25ssp"
+        android:textColor="@color/brokenwhite"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</RelativeLayout>
